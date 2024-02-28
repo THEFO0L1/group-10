@@ -3,6 +3,8 @@
 '''github link here''' '''Shuja Ahmad'''
 
 
+
+
 #start by defining functions and constants for the currency conversion
 def aed_to_britishPound(money):
    dirhams_gbp=0.2154
@@ -25,6 +27,9 @@ def dollar_to_aed(money):
 
 
 
+
+
+
 #Define function as 'code'
 def code():
   #Welcome Message when the currency converter starts
@@ -39,7 +44,7 @@ def code():
   print()
   money=int(input("Enter your amount you want to convert:"))
   choice=int(input("Enter your choice (1/2/3):"))
-  #If the user chooses a choice then specific subchoices appear
+  #If the user chooses a choice then specific sub choices appear
   if choice==1:
       print("1. AED to Euro (EUR)\n2. AED to British Pound (GBP)\n3. AED to US Dollar\n4. AED to Exit")
       subchoice=int(input("Enter the Sub choice of currency:"))
@@ -51,9 +56,9 @@ def code():
       elif subchoice==3:
           print(money,"AED is equal to",aed_to_dollar(money),"USD")
       elif subchoice==4:
-          print("Program is exit")
+          print("Thank you for working with us today!")
           exit()
-      #If a number is entered which does not exists in the subchoices the program will print "Invalid Input!"
+      #If a number is entered which does not exist in the subchoices the program will print "Invalid Input!"
       else:
           print("Invalid choice")
   if choice==2:
@@ -66,17 +71,19 @@ def code():
       elif subchoice==3:
           print(money,"USD is equal to",dollar_to_aed(money),"AED")
       elif subchoice==4:
-          print("Program is exit")
+          print("Thank you for working with us today!")
           exit()
-      #If a number is entered which does not exists in the subchoices the program will print "Invalid choice!"
+      #If a number is entered which does not exist in the subchoices the program will print "Invalid choice!"
       else:
           print("Invalid choice!")
   if choice==3:
-      print("Program is exit")
+      print("Thank you for working with us today!")
       exit()
 
 
-  #If the user enters choice as any number less than 1 or more than 3 it prints "Invalid chocie!"
+
+
+  #If the user enters choice as any number less than 1 or more than 3 it prints "Invalid choice!"
   elif choice>3 or choice<1:
        print("Invalid choice")
 def main():
@@ -88,9 +95,20 @@ def main():
         if again=='y':
           code()
         elif again=='n':
-          print("Program is exit")
+          print("Thank you for working with us today!")
           exit()
         break
 
 
+
+
 main()
+
+
+
+
+
+
+
+
+
