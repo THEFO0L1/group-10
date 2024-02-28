@@ -1,4 +1,4 @@
-'''github link here''' '''ahmad abolhusain'''
+'''https://github.com/THEFO0L1/group-10/blob/main/group10-activity-2.py''' '''ahmad abolhusain'''
 '''https://github.com/CjDubaiRIT/GROUP-10.git''' '''CJ'''
 '''github link here''' '''Shuja Ahmad'''
 
